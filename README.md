@@ -1,9 +1,14 @@
 🏭 Quality Control & Audit Management System
+
 An enterprise-grade, role-based Quality Assurance platform designed to enforce audit-safe inspection workflows across manufacturing and production environments.
+
 📌 Overview
 The Quality Control & Audit Management System is a web-based platform built to digitize and govern inspection processes in manufacturing and quality-driven organizations.
+
 Unlike basic inspection tools, this system focuses on audit integrity, traceability, and role-controlled governance, ensuring that quality data remains tamper-proof, standardized, and compliant with real-world audit practices.
+
 The platform supports multiple industries by modeling inspections around generic quality specifications, not product-specific hardcoding.
+
 🎯 Problem Statement
 In many organizations, quality inspections are managed through:
 Paper checklists
@@ -15,6 +20,7 @@ Unclear accountability
 Missing approval history
 Audit failures
 This system solves these issues by enforcing a strict inspection lifecycle with immutable records and hierarchical approvals.
+
 👥 User Roles & Responsibilities
 Role
 Responsibility
@@ -28,6 +34,7 @@ Quality Head
 Defines standards, manages users, final approval
 🔒 Users cannot choose roles during signup.
 All users default to Auditor, and role elevation is controlled internally by the Quality Head.
+
 🧩 Core Design Principle
 Specification = Quality Rule
 Inspection = Execution of that rule
@@ -70,6 +77,7 @@ Corrections require a new inspection
 Historical records are preserved
 Final Approval
 Quality Head approval locks the inspection permanently
+
 Approved inspections are view/export only
 📊 Analytics & Reporting
 Inspection volume by product
